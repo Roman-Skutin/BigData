@@ -117,6 +117,6 @@ a.data.frame$v1
 a.data.frame[,"v1"]
 a.data.frame[1,]
 colMeans(a.data.frame)
-rbind(a.data.list(v1=-3, v2=-5, logicals=TRUE))
+rbind(a.data.frame,list(v1=-3, v2=-5, logicals=TRUE))
 rbind(a.data.frame,c(3,4,6))
 
